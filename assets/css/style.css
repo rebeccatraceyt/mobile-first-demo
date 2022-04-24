@@ -10,8 +10,8 @@
 
     /* Colour Variables */
     --blue: #2F2E41;
-    --orange: #D9512A;
-    ----black: #000000;
+    --orange: #E74610;
+    --black: #000000;
     --white: #ffffff;
     --grey: #E6E6E6;
 
@@ -115,25 +115,25 @@ header {
 /* --- About Section Stylings --- */
 #about {
     background-color: var(--white);
-    box-shadow: 3px 3px 8px 0px var(—black);
+    box-shadow: 3px 3px 8px 0px var(—-black);
 }
 
 /* --- Projects Section Stylings --- */
 #projects {
     background-color: var(--grey);
-    box-shadow: 3px 3px 8px 0px var(—black);
+    box-shadow: 3px 3px 8px 0px var(—-black);
 }
 
 /* --- Skills Section Stylings --- */
 #skills {
     background-color: var(--white);
-    box-shadow: 3px 3px 8px 0px var(—black);
+    box-shadow: 3px 3px 8px 0px var(—-black);
 }
 
 /* --- Contact Section Stylings --- */
 #Contact {
     background-color: var(--grey);
-    box-shadow: 3px 3px 8px 0px var(—black);
+    box-shadow: 3px 3px 8px 0px var(—-black);
 }
 
 
@@ -227,5 +227,11 @@ footer {
         display: inline-block;
         padding: 10px 2px;
         font-size: 2rem;
+    }
+    .footer-icon {
+        transition: all 0.3s ease 0s;
+    }
+    .footer-icon:hover {
+        color: var(--orange);
     }
 }

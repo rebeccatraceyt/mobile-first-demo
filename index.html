@@ -16,6 +16,9 @@
 
         <!-- Stylesheets -->
         <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- FontAwesome Kit Import -->
+        <script src="https://kit.fontawesome.com/bc68bd906d.js" crossorigin="anonymous"></script>
         
         <!-- Page title -->
         <title>Casey Coder</title>
@@ -25,17 +28,28 @@
 
         <!-- Page Header Content -->
         <header aria-label="Page header containing logo and navigational links">
+                
             <!-- Page Logo -->
-            <div>
-                <h1>Casey Coder</h1>
-            </div>
+            <a href="#about" aria-label="Link to About Section">
+                <span id="casey">
+                    Casey
+                </span>
+                <span>
+                    Coder
+                </span>
+            </a>
 
-            <!-- Navigational Links -->
+            <!-- Navbar Menu Button -->
+            <!-- to learn more about this href, follow the link: https://tinyurl.com/void-operator -->
+            <a href="javascript:void(0);" id="nav-btn" onclick="navBtn()">
+                <i id="icon" class="fa-solid fa-bars"></i>
+            </a>
+
             <!-- Mobile Navbar -->
-            <nav aria-label="Mobile navigational menu ">
+            <nav id="mobile-nav"  aria-label="Mobile navigational menu ">
                 <ul>
                     <li>
-                        <a class="" href="#about" aria-label="Link to About Section">
+                        <a class="nav-link" href="#about" aria-label="Link to About Section">
                             <span>About</span>
                         </a>
                     </li>
@@ -56,6 +70,7 @@
                     </li>
                 </ul>
             </nav>
+
             <!-- Desktop Navbar -->
             <nav aria-label="Navigational links">
 
@@ -91,5 +106,26 @@
         <footer aria-label="Footer content with social media links">
             
         </footer>
+
+        <!-- Scripts -->
+        <script>
+            function navBtn() {
+                // get navbar and icon elements
+                var navbar = document.getElementById("mobile-nav");
+                var icon = document.getElementById("icon");
+
+                if (navbar.style.display === "block") {
+                    // if navbar menu is displayed, hide it
+                    navbar.style.display = "none";
+                    icon.classList.remove("fa-x");
+                    icon.classList.add("fa-bars");
+                } else {
+                    // else (when menu is hidden and toggle is pressed) show menu
+                    navbar.style.display = "block";
+                    icon.classList.remove("fa-bars");
+                    icon.classList.add("fa-x");
+                }
+            }
+        </script>
     </body>
 </html>

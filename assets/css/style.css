@@ -18,9 +18,8 @@
 
     /* Misc Colour Variables */
     --border-shadow: rgba(10, 10, 10, 0.663);
-    --border-dark: rgba(0, 0, 0, 0.6);
-    --border-light: rgba(0,0,0,.1);
-    --dark-box: rgba(0,0,0,0.8);
+    --border-dark: rgba(0, 0, 0, 0.497);
+    --border-light: rgba(0, 0, 0, 0.074);
 }
 
 
@@ -49,4 +48,51 @@ a, a:hover, a:focus, a:active {
 }
 li {
     list-style: none;
+}
+
+
+/* --- HEADER Stylings --- */
+
+/* --- header --- */
+header {
+    background-color: var(--white);
+    border-bottom: 1px solid var(--border-shadow);
+    padding: 5%;
+    position: relative;
+    overflow: hidden;
+    font-size: 1.6rem;
+}
+
+/* --- logo --- */
+
+#casey {
+    color: var(--orange);
+}
+
+/* --- mobile navbar --- */
+
+/* adapted from w3schools example (https://tinyurl.com/w3schools-mobile-nav) */
+#nav-btn {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+#mobile-nav {
+    /* mobile nav links hidden until menu is selected */    
+    display: none;
+    text-align: right;
+    padding: 10px 0 0 0;
+}
+
+#mobile-nav ul :not(:last-child) {
+    /* apply border to bottom of nav links (except the last one) */
+    border-bottom: 1px solid var(--border-light);
+}
+
+.nav-link {
+    color: var(--orange);
+    display: block;
+    padding: 10px 0;
 }

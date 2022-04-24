@@ -1,0 +1,52 @@
+/* --- Font Imports --- */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap');
+
+/* --- Root Variables --- */
+
+:root {
+    /* Font Variables */
+    --font: 'Montserrat', sans-serif;
+
+    /* Colour Variables */
+    --blue: #2F2E41;
+    --orange: #D9512A;
+    ----black: #000000;
+    --white: #ffffff;
+    --grey: #E6E6E6;
+
+
+    /* Misc Colour Variables */
+    --border-shadow: rgba(10, 10, 10, 0.663);
+    --border-dark: rgba(0, 0, 0, 0.6);
+    --border-light: rgba(0,0,0,.1);
+    --dark-box: rgba(0,0,0,0.8);
+}
+
+
+/* --- Reset Styling --- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: var(--grey)
+}
+body {
+    font-family: var(--font);
+    color: var(--blue);
+}
+section {
+    height: 100vh;
+    width: 100vw;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+li {
+    list-style: none;
+}

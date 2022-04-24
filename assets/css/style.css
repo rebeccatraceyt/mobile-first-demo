@@ -133,7 +133,7 @@ header {
     
     header {
         font-size: 2rem;
-        padding: 2% 3%;
+        padding: 1% 2%;
     }
 
     #mobile-nav, #nav-btn {
@@ -157,5 +157,10 @@ header {
     .nav-link {
         color: var(--blue);
         font-size: 1.4rem;
+        transition: all 0.3s ease 0s;
+    }
+    .nav-link:hover{
+        color: var(--orange);
+        text-decoration: underline;
     }
 }

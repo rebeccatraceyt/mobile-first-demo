@@ -105,10 +105,15 @@ header {
 }
 
 /* ~~~~~~ MEDIA QUERIES ~~~~~~ */
+
+/* --- Standard breakpoint for medium devices --- */
 @media screen and (min-width: 768px) {
 
     /* --- Navbar Stylings --- */
 
+    header {
+        padding: 2% 4%;
+    }
     #logo {
         font-size: 2.2rem;
     }
@@ -118,8 +123,8 @@ header {
     }
 
     #nav-btn {
-        right: 40px;
-        top: 40px;
+        right: 30px;
+        top: 20px;
     }
 
     .nav-link {
@@ -127,13 +132,17 @@ header {
     }
 }
 
+/* --- Standard breakpoint for large devices --- */
 @media screen and (min-width: 1024px) {
 
     /* --- Navbar Stylings --- */
     
     header {
-        font-size: 2rem;
         padding: 1% 2%;
+    }
+    
+    #logo {
+        font-size: 2rem;
     }
 
     #mobile-nav, #nav-btn {

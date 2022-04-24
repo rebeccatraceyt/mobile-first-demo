@@ -294,6 +294,15 @@ footer {
         padding-bottom: 8px;
         font-size: 1rem;
     }
+
+    /* --- Skills Section Stylings --- */
+    #skills-container {
+        padding: 4% 16%;
+    }
+
+    .skills-item {
+        max-width: 30%;
+    }
 }
 
 /* --- Standard breakpoint for large devices --- */

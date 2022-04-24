@@ -195,6 +195,23 @@ header {
     background-color: var(--white);
 }
 
+#skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px 20px;
+}
+
+.skills-item {
+    max-width: 40%;
+    margin: auto;
+    padding: 20px 10px;
+}
+
+.skills-item > img{
+    width: 100%;
+    box-shadow: var(--border-light) 0px 2px 8px 0px;
+}
+
 /* --- Contact Section Stylings --- */
 #Contact {
     background-color: var(--grey);

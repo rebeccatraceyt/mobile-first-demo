@@ -198,6 +198,16 @@ footer {
     .nav-link {
         font-size: 1.8rem;
     }
+
+    /* --- About Section Stylings --- */
+    #about {
+        flex-direction: row-reverse;
+        padding: 10% 5%;
+    }
+
+    #about-image, #about-text {
+        width: fit-content;
+    }
 }
 
 /* --- Standard breakpoint for large devices --- */

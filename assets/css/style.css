@@ -242,6 +242,12 @@ footer {
         font-size: 1.8rem;
     }
 
+    /* --- Common Section Stylings --- */
+    .section-title {
+        padding: 15% 5% 5% ;
+        font-size: 1.3rem;
+    }
+
     /* --- About Section Stylings --- */
     #about {
         flex-direction: row-reverse;
@@ -250,6 +256,30 @@ footer {
 
     #about-image, #about-text {
         width: fit-content;
+    }
+
+    /* --- Projects Section Stylings --- */
+    .card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 60%;
+        padding: 20px;
+        font-size: .9rem;
+    }
+
+    .card-img {
+        padding: 0;
+    }
+
+    .card-img > img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-title {
+        padding-bottom: 8px;
+        font-size: 1rem;
     }
 }
 

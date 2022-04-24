@@ -96,3 +96,23 @@ header {
     display: block;
     padding: 10px 0;
 }
+
+
+@media screen and (min-width: 768px) {
+    header {
+        font-size: 2.2rem;
+    }
+
+    #nav-btn {
+        right: 40px;
+        top: 40px;
+    }
+
+    #mobile-nav {
+        padding-top: 20px;
+    }
+
+    .nav-link {
+        font-size: 1.8rem;
+    }
+}

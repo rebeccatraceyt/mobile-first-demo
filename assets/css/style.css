@@ -472,6 +472,20 @@ footer {
         transform: scale(1.1);
     }
 
+    /* --- Contact Section Stylings --- */
+    #contact-form {
+        padding: 2%;
+        max-width: 50%;
+        margin: 0 auto;
+        font-size: 1.2rem;
+    }
+    .contact-input {
+        margin-bottom: 20px;
+    }
+    .contact-btn {
+        font-size: 1.4rem;
+    }
+
     /* --- Footer Stylings --- */
     #footer-socials {
         display: block;

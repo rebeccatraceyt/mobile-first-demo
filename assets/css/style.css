@@ -342,6 +342,22 @@ footer {
     .skills-item {
         max-width: 30%;
     }
+
+    /* --- Contact Section Stylings --- */
+    #contact-form {
+        padding: 8%;
+        max-width: 60%;
+        margin: 10px auto;
+    }
+    #contact-info {
+        font-size: .8rem;
+    }
+    .contact-input {
+        margin-bottom: 16px;
+    }
+    .contact-btn {
+        font-size: 1.3rem;
+    }
 }
 
 /* --- Standard breakpoint for large devices --- */

@@ -342,6 +342,7 @@ footer {
         color: var(--blue);
         font-size: 1.4rem;
         transition: all 0.3s ease 0s;
+        border-bottom: 0px;
     }
     .nav-link:hover{
         color: var(--orange);
@@ -390,11 +391,29 @@ footer {
     .card-title {
         font-size: 1.4rem;
     }
+
     .card-title > a{
         transition: all 0.3s ease 0s;
     }
+
     .card-title > a:hover{
         color: var(--blue);
+    }
+
+    /* --- Skills Section Stylings --- */
+    #skills-container {
+        padding: 4%;
+    }
+
+    .skills-item {
+        max-width: 12%;
+        margin: auto;
+        padding: 20px 10px;
+    }
+
+    .skills-item > img{
+        width: 100%;
+        box-shadow: var(--border-light) 0px 2px 8px 0px;
     }
 
     /* --- Footer Stylings --- */

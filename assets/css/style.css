@@ -484,6 +484,12 @@ footer {
     }
     .contact-btn {
         font-size: 1.4rem;
+        transition: all 0.5s ease 0s; 
+    }
+    .contact-btn:hover,
+    .contact-btn:focus {
+        color: var(--white);
+        background-color: var(--blue);
     }
 
     /* --- Footer Stylings --- */

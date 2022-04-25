@@ -407,13 +407,14 @@ footer {
 
     .skills-item {
         max-width: 12%;
-        margin: auto;
-        padding: 20px 10px;
     }
 
     .skills-item > img{
-        width: 100%;
-        box-shadow: var(--border-light) 0px 2px 8px 0px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .skills-item > img:hover {
+        transform: scale(1.1);
     }
 
     /* --- Footer Stylings --- */

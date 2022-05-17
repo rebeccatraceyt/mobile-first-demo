@@ -103,19 +103,21 @@ High-Fidelity Wireframe mockups were created in [Figma Workspace](https://www.fi
 
 **Colour Scheme**
 
-The chosen colour scheme is reflective of the developers style of creativity. The colours are from the developer's colour favourites, and were selected on their aesthetic appeal. The following colours were selected:
+The chosen colour scheme is reflective of the developers style of creativity. 
 
-![#2F2E41](https://via.placeholder.com/15/2F2E41/000000?text=+) `#2F2E41`<br>
-![#E74610](https://via.placeholder.com/15/E74610/000000?text=+) `#E74610` <br>
-![#000000](https://via.placeholder.com/15/000000/000000?text=+) `#000000` <br>
-![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `#ffffff` <br>
-![#E6E6E6](https://via.placeholder.com/15/E6E6E6/000000?text=+) `#E6E6E6`
+<div align="center">
+<img src="assets/images/markdown-imgs/palette.png" alt="Wireframe mockup">
+</div>
 
 **Typography**
 
 - The primary font chosen is [Montserrat](https://fonts.google.com/specimen/Montserrat "Link to Montserrat Google Fonts page"). 
 
-     ![Montserrat Typography Example](montserrat.png)
+     ![Montserrat Typography Example](assets/images/markdown-imgs/montserrat.png)
+
+- The secondary font chosen is [Gloria Hallelujah](https://fonts.google.com/specimen/Gloria+Hallelujah "Link to Gloria Hallelujah Google Fonts page"). 
+
+     ![Gloria Hallelujah Typography Example](assets/images/markdown-imgs/gloria.png)
 
 
 **Imagery**

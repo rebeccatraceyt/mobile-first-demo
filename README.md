@@ -75,10 +75,15 @@ With these goals in mind, a strategy table was created to determine the trade-of
 A scope was defined in order to clearly identify what needed to be done in order to align features with the strategy previously defined. This was broken into two categories:
 - **Content Requirements**
      - The user will be looking for:
-          - first
+          - Biographic information
+          - Projects
+          - Current skills
+          - Contact details
+
 - **Functionality Requirements**
      - The user will be able to:
-          - first
+          - Easily navigate through the site in order to find the information they want
+          - Contact the developer directly through their chosen channel of communication
 
 #### Structure
 The information architecture was organized in a **hierarchial tree structure** in order to ensure that users could navigate through the site with ease and efficiency, with the following results: 

@@ -15,6 +15,7 @@ Mobile-First Demo Project (created for Educational Purposes)
 3. [Testing](#Testing)
 4. [Deployment](#Deployment)
 5. [Credits](#Credits)
+5. [Disclaimer](#Disclaimer)
 
 ***
 
@@ -226,3 +227,7 @@ The developer consulted multiple sites in order to better understand the code th
 [Back to top ⇧](#table-of-contents)
 
 ***
+
+## Disclaimer
+
+This website was created as part of a Code Institute DevLabs Session, with the purpose of demonstrating Mobile-First Design implementation. Therefore, the information provided on [this](https://rebeccatraceyt.github.io/mobile-first-demo/ "Link to live site") site is for general educatinoal purposes, with a fictitious character used for informational purposes.

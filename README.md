@@ -89,14 +89,14 @@ A scope was defined in order to clearly identify what needed to be done in order
 The information architecture was organized in a **hierarchial tree structure** in order to ensure that users could navigate through the site with ease and efficiency, with the following results: 
 
 <p align="center">
-<img src="sitemap.png" alt="Sitemap">
+<img src="assets/images/markdown-imgs/hierarchical-model.png" alt="Sitemap">
 </p>
 
 #### Skeleton 
-High-Fidelity Wireframe mockups were created in [Figma Workspace](https://www.figma.com/file/CImNeXCAVsJVcCnhKufeO9/Portfolio?node-id=0%3A1 "Link to Portfolio Workspace") with providing a positive user experience in mind:
+High-Fidelity Wireframe mockups were created in [Figma Workspace](https://www.figma.com/file/amBntIDa2q2qY4SBUtOCQP/hi-fi-wireframes "Link to Portfolio Workspace") with providing a positive user experience in mind:
 
 <div align="center">
-<img src="wireframe.png" alt="Wireframe mockup">
+<img src="assets/images/markdown-imgs/mobile.png" alt="Wireframe mockup">
 </div>
 
 #### Surface

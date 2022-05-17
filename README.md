@@ -25,31 +25,50 @@ Mobile-First Demo Project (created for Educational Purposes)
 
 ### User Stories
 #### As a visitor, I want to:
+1. Easily navigate through the website to find the relevant content, effortlessly.
+2. Easily navigate to previous projects of the developer, to learn about their style of work.
+3. Easily find a point of contact in order to get in touch with the developer.
 
 ### Development Planes
 
 #### Strategy
 Broken into three categories, the website will focus on the following target audiences:
 - **Roles:**
-     - first
+     - New/Potential Client
+     - Current/Returning Clients
 
 - **Demographic:**
-     - first
+     - Potential Employers
+     - Interest in collaborating with the developer
+
 - **Psychographics:**
-     - first
-          - first
+     - Personality & Attitudes:
+          - Friendly
+          - Outgoing
+     - Values:
+          - More modern lifestyle
+          - Importance of online presence
+     - Lifestyles:
+          - Business-oriented
+          - Client-focused
 
 The website needs to enable the **user** to:
-- first
-     - first
+- Retrieve desired information:
+     - Previous projects
+     - Developer's skill set
+     - Contact information
 
 The website needs to enable the **developer** to:
-- first
+- Develop an online presence 
+- Provide an easily navigable website for users to find relevant information:
+     - Projects
+     - Skills
+- Provide a channel of communication for enquires
 
 With these goals in mind, a strategy table was created to determine the trade-off between importance and viability with the following results:
 
 <p align="center">
-<img src="strategy-table.png" alt="Strategy Table">
+<img src="assets/images/markdown-imgs/strategy-table.png" alt="Strategy Table">
 </p>
 
 #### Scope

@@ -11,13 +11,10 @@ Mobile-First Demo Project (created for Educational Purposes)
 
 ## Table of contents
 1. [UX](#UX)
-2. [Features](#Features)
-3. [Known Issues and Bugs](#Known-Issues-and-Bugs)
-4. [Technologies Used](#Technologies-Used)
-5. [Testing](#Testing)
-6. [Deployment](#Deployment)
-7. [Credits](#Credits)
-8. [Acknowledgements](#Acknowledgements)
+2. [Technologies Used](#Technologies-Used)
+3. [Testing](#Testing)
+4. [Deployment](#Deployment)
+5. [Credits](#Credits)
 
 ***
 
@@ -125,30 +122,6 @@ The chosen colour scheme is reflective of the developers style of creativity.
 
 [Back to top ⇧](#table-of-contents)
 
-## Features
-
-### Design Features
-
-<dl>
-  <dt></dt>
-  <dd>
-     <ul>
-          <li><strong></strong> - </li>
-          <li><strong></strong> - </li>
-     </ul>
-  </dd>
- 
-### Existing Features
-
-
-### Features to Implement in the future
-
-[Back to top ⇧](#table-of-contents)
-
-## Known Issues and Bugs 
-
-
-[Back to top ⇧](#table-of-contents)
 
 ## Technologies Used
 ### Languages Used
@@ -245,15 +218,9 @@ Once a local clone is created, follow the below steps to deploy locally:
 
 ## Credits 
 
-### Content
-
-### Media
-
-### Code 
 The developer consulted multiple sites in order to better understand the code they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
 - [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
 - [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
-- [Bootstrap](https://getbootstrap.com/ "Link to BootStrap page")
 - [JSfiddle](https://jsfiddle.net/ "Link to JSfiddle page")
 
 [Back to top ⇧](#table-of-contents)

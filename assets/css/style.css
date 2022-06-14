@@ -5,6 +5,9 @@
 /* ~~~~~~ Root Variables ~~~~~~ */
 
 :root {
+    /* to learn more about setting global CSS variables go to:
+    https://www.w3schools.com/css/css3_variables.asp */
+
     /* Font Variables */
     --font: 'Montserrat', sans-serif;
 

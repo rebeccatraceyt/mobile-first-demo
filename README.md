@@ -4,7 +4,7 @@
 
 Mobile-First Demo Project (created for Educational Purposes)
 
-[Live Link](https://github.com/rebeccatraceyt/gitpod-react "Link to Project")
+[Live Link](https://rebeccatraceyt.github.io/mobile-first-demo/ "Link to live site")
 
 </div>
 
@@ -12,9 +12,8 @@ Mobile-First Demo Project (created for Educational Purposes)
 ## Table of contents
 1. [UX](#UX)
 2. [Technologies Used](#Technologies-Used)
-3. [Testing](#Testing)
-4. [Deployment](#Deployment)
-5. [Credits](#Credits)
+3. [Deployment](#Deployment)
+4. [Credits](#Credits)
 5. [Disclaimer](#Disclaimer)
 
 ***
@@ -25,7 +24,8 @@ Mobile-First Demo Project (created for Educational Purposes)
 #### As a visitor, I want to:
 1. Easily navigate through the website to find the relevant content, effortlessly.
 2. Easily navigate to previous projects of the developer, to learn about their style of work.
-3. Easily find a point of contact in order to get in touch with the developer.
+3. Easily navigate to the developer's skills, to view their current skill set.
+4. Easily find a point of contact in order to get in touch with the developer.
 
 ### Development Planes
 
@@ -91,11 +91,14 @@ The information architecture was organized in a **hierarchial tree structure** i
 </p>
 
 #### Skeleton 
-High-Fidelity Wireframe mockups were created in [Figma Workspace](https://www.figma.com/file/amBntIDa2q2qY4SBUtOCQP/hi-fi-wireframes "Link to Portfolio Workspace") with providing a positive user experience in mind:
+High-Fidelity Wireframe mockups were created in [Figma Workspace](https://www.figma.com/file/amBntIDa2q2qY4SBUtOCQP/hi-fi-wireframes "Link to Portfolio Workspace") with providing a positive user experience in mind.
 
+<details>
+<summary>Click to view Mobile mockup</summary>
 <div align="center">
 <img src="assets/images/markdown-imgs/mobile.png" alt="Wireframe mockup">
 </div>
+</details>
 
 #### Surface
 
@@ -136,20 +139,16 @@ The chosen colour scheme is reflective of the developers style of creativity.
      - GitHub was used to store the project repository, after pushing.
 - [Figma](https://www.figma.com/ "Link to Figma homepage")
      - Figma was used to create the wireframes during the design phase of the project.
-- [Mockup Generator](https://techsini.com/multi-mockup/index.php "Link Mockup Geneerator Homepage")
-     - Am I Responsive was used in order to validate the responsiveness of the design throughout the process, and to generate mockup imagery to be used.
+- [Mockup Generator](https://techsini.com/multi-mockup/index.php "Link Mockup Generator Homepage")
+     - Mockup Generator was used in order to validate the responsiveness of the design throughout the process, and to generate mockup imagery to be used.
 - [Font Awesome](https://fontawesome.com/ "Link to Font Awesome site")
-     - Font Awesome was used in conjunction with Iconify for icons used throughout the website.
+     - Font Awesome (V.6) was used for icons used throughout the website.
 
 ### Libraries
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
     - Google fonts was used to import the fonts **"Indie Flower"** and **"Work Sans"** into the style.css file. These fonts were used throughout the project.
 
 [Back to top ⇧](#table-of-contents)
-
-## Testing
-
-Testing information can be found in a separate testing [file](TESTING.md "Link to testing file")
 
 ## Deployment
 
@@ -230,4 +229,4 @@ The developer consulted multiple sites in order to better understand the code th
 
 ## Disclaimer
 
-This website was created as part of a Code Institute DevLabs Session, with the purpose of demonstrating Mobile-First Design implementation. Therefore, the information provided on [this](https://rebeccatraceyt.github.io/mobile-first-demo/ "Link to live site") site is for general educatinoal purposes, with a fictitious character used for informational purposes.
+This website was created as part of a Code Institute DevLabs Session, with the purpose of demonstrating Mobile-First Design implementation. Therefore, the information provided on [this](https://rebeccatraceyt.github.io/mobile-first-demo/ "Link to live site") site is for general educational purposes, with a fictitious character used for informational purposes.

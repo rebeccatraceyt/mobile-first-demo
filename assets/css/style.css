@@ -155,7 +155,7 @@ header {
     padding-bottom: 10px;
 }
 
-#about-icon i {
+#about-icon {
     transform: rotate(30deg);
     color: var(--orange);
 }
@@ -432,6 +432,21 @@ footer {
 
     #about-text > h3 {
         padding-bottom: 20px;
+    }
+
+    #about-icon {
+        animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+        animation-duration: 1s;        /* Speed of the animation */
+        animation-iteration-count: infinite;
+        transform-origin: 70% 70%;       /* Pivot from the bottom-left of the hand */
+    }
+    
+    @keyframes wave-animation {
+        0% { transform: rotate( 0.0deg) }
+       25% { transform: rotate(16.0deg) }
+       50% { transform: rotate(-8.0deg) }
+       75% { transform: rotate(16.0deg) }
+      100% { transform: rotate( 0.0deg) }
     }
 
     /* --- Projects Section Stylings --- */

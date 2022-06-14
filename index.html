@@ -13,7 +13,7 @@
         <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-        <link rel="manifest" href="asssets/favicon/site.webmanifest">
+        <link rel="manifest" href="assets/favicon/site.webmanifest" crossorigin="use-credentials">
 
         <!-- Stylesheets -->
         <link rel="stylesheet" href="assets/css/style.css">
@@ -42,7 +42,7 @@
 
             <!-- Navbar Menu Button -->
             <!-- to learn more about this href, follow the link: https://tinyurl.com/void-operator -->
-            <a href="javascript:void(0);" id="nav-btn" onclick="navBtn()">
+            <a href="javascript:void(0);" id="nav-btn">
                 <i id="icon" class="fa-solid fa-bars"></i>
             </a>
 
@@ -215,6 +215,11 @@
 
         <!-- Scripts -->
         <script>
+
+            // event listener to trigger navBtn function
+            // this toggles the hamburger menu to open and close
+            document.getElementById("nav-btn").addEventListener("click", navBtn);
+
             function navBtn() {
                 // get navbar and icon elements
                 var navbar = document.getElementById("mobile-nav");
